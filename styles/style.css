@@ -5,10 +5,46 @@ html {
 
   }
 
-  body {
+body {
     width: 600px;
     margin: 20px auto;
     background-color: white;
     padding: 0 20px 20px 20px;
     border: 5px solid black;
+  }
+
+img {
+    display: block;
+    margin: 20px auto;
+  }
+
+h1 {
+    margin: 0;
+    padding: 20px 0;
+  }
+
+.collapsible {
+    border: 2px solid purple;
+    background-color: cadetblue;
+    justify-content: center;
+    padding: 15px;
+    width: 100%;
+
+  }
+
+
+
+.collapsible:hover {
+  background-color: royalblue;
+}
+.container2 {
+    border: 2px solid purple;
+    background-color: rgb(197, 164, 74);
+    display: none;
+    overflow: hidden;
+    justify-content: center;
+  }
+
+  .container2.visible {
+    display: block;
   }
